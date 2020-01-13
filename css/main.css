@@ -3,7 +3,12 @@ table td,
 table th {
     text-align: center
 }
-
+.mobile-logo-elan {
+    margin-top: 5px;
+    z-index: inherit; 
+    width: 50px; 
+    height: 50px;
+}
 body,
 h1,
 h2,
@@ -16316,8 +16321,6 @@ body.edgtf-ms-explorer.edgtf-header-vertical .edgtf-vertical-menu>ul>li.edgtf-ac
 
 .edgtf-mobile-header .edgtf-mobile-logo-wrapper img {
     display: block;
-    width:20%;
-    height: auto;;
 }
 
 .edgtf-mobile-header .edgtf-mobile-menu-opener {
@@ -46975,3 +46978,11 @@ body.edgtf-ms-explorer .edgtf-pl-holder .edgtf-pli-inner .edgtf-pli-image .edgtf
 .edgtf-vertical-menu-area .edgtf-sc-dropdown {
     display: none!important
 }
+
+.logo-elan {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 850px) {
+    
+  }
