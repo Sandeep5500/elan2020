@@ -6,11 +6,11 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Marée" />
 	<meta property="og:description" content="Illustration and Design Portfolio Theme" />
-	<meta property="og:image" content="wp-content/uploads/2019/08/open_graph.jpg" />
+	<meta property="og:image" content="images/favicon.png" />
 	<meta charset="UTF-8" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
-	<title>Marée &#8211; Illustration and Design Portfolio Theme</title>
+	<title>Elan & nVision 2020 | IIT Hyderabad</title>
 	<style type="text/css" data-type="vc_shortcodes-custom-css">
 		.vc_custom_1557490732134 {
 			padding-top: 118px !important;
@@ -32,6 +32,9 @@
 			padding-top: 150px !important;
 			padding-bottom: 139px !important;
 		}
+		.slide {
+			height: 100%;
+		}
 	</style>
 
 	<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
@@ -51,11 +54,50 @@
 		href="https://maree.edge-themes.com/comments/feed/" />
 	<link rel="alternate" type="application/rss+xml" title="Marée &raquo; Comments Feed"
 		href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-
+		<link rel="stylesheet" href="css/infinite-slider.css">
 	<script type="text/javascript">
 		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/maree.edge-themes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.2" } };
 		!function (a, b, c) { function d(a, b) { var c = String.fromCharCode; l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0); var d = k.toDataURL(); l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0); var e = k.toDataURL(); return d === e } function e(a) { var b; if (!l || !l.fillText) return !1; switch (l.textBaseline = "top", l.font = "600 32px Arial", a) { case "flag": return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b); case "emoji": return b = d([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340]), !b }return !1 } function f(a) { var c = b.createElement("script"); c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var g, h, i, j, k = b.createElement("canvas"), l = k.getContext && k.getContext("2d"); for (j = Array("flag", "emoji"), c.supports = { everything: !0, everythingExceptFlag: !0 }, i = 0; i < j.length; i++)c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]); c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.everything || (h = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji))) }(window, document, window._wpemojiSettings);
 	</script>
+	<script src="js/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.customer-logos').slick({
+				slidesToShow: 6,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1000,
+				arrows: false,
+				dots: false,
+				pauseOnHover: false,
+				infinite: false,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 4
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 3
+					}
+				}]
+			}).on('setPosition', function (event, slick) {
+		slick.$slides.css('height', slick.$slideTrack.height() + 'px');
+		
+})
+});
+	</script>
+	<script>
+	$(window).load(function() {
+      $('.slides').on('setPosition', function () {
+      $(this).find('.slick-slide').height('auto');
+      var slickTrack = $(this).find('.slick-track');
+      var slickTrackHeight = $(slickTrack).height();
+      $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
+			});
+		</script>
 	<style type="text/css">
 		img.wp-smiley,
 		img.emoji {
@@ -1093,6 +1135,40 @@
 																				aliqua pleasure itself.</p>
 																		</div>
 																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="vc_row wpb_row vc_row-fluid vc_custom_1557490732134 edgtf-content-aligment-center">
+										<div class="wpb_column vc_column_container vc_col-sm-12">
+											<div class="vc_column-inner">
+												<div class="wpb_wrapper">
+													<div class="edgtf-section-title-holder  edgtf-cf-9073 " data-item-class="edgtf-cf-9073">
+														<div class="edgtf-st-inner">
+															<h1 class="edgtf-st-title">
+																Our <span class="edgtf-section-bold-ital">Sponsors</span>
+															</h1>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="edgtf-row-grid-section-wrapper ">
+										<div class="edgtf-row-grid-section">
+											<div class="vc_row wpb_row vc_row-fluid vc_custom_1557491549328">
+												<div class="wpb_column vc_column_container vc_col-sm-12">
+													<div class="vc_column-inner">
+														<div class="wpb_wrapper">
+															<div class="edgtf-process-holder  edgtf-four-columns edgtf-responsive-1024">
+																<div class="container">
+																	<section class="customer-logos slider">
+																		<div class="slide"><img src="images/GAIL_Logo.png"></div>
+																	</section>
 																</div>
 															</div>
 														</div>
