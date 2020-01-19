@@ -487,7 +487,55 @@ blockquote:before {
     left: 24px;
     position: absolute
 }
+.row
+{
+    margin-bottom:25px;
+}
 
+.team img
+{
+    /* width:100%; */
+    height: auto;
+}
+.img-caption
+{    
+    /* width: 80%;  */
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.img-title{
+    padding-top: 8px;
+padding-bottom: 8px;
+border-radius: 3px;
+}
+
+.img-title-1
+{
+background-color: rgb(244, 218, 217);
+}
+
+.img-title-2
+{
+background-color: rgb(192, 225, 207)
+}
+.img-title-3
+{
+background-color: #F0EDE6
+}
+.img-title-4
+{
+background-color: #FAD032;
+}
+.team h5
+{
+    margin: auto;
+    
+}
+img.circle
+{
+    border-radius: 50%;
+}
 @media only screen and (max-width:680px) {
     blockquote {
         padding: 0
