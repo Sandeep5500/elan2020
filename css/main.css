@@ -783,7 +783,7 @@ img.circle
     .edgtf-grid-1300 .edgtf-container-inner,
     .edgtf-grid-1300 .edgtf-grid,
     .edgtf-grid-1300 .edgtf-row-grid-section {
-        width: 1300px
+        width: 1400px
     }
     .edgtf-grid-1300.edgtf-boxed .edgtf-footer-inner,
     .edgtf-grid-1300.edgtf-boxed .edgtf-wrapper-inner {
@@ -1502,7 +1502,7 @@ ul.wpb_thumbnails-fluid>li {
 
 .edgtf-grid-list.edgtf-three-columns .edgtf-item-space,
 .edgtf-grid-list.edgtf-three-columns .edgtf-masonry-grid-sizer {
-    width: 33.33333%
+    width: 60%;
 }
 
 .edgtf-grid-list.edgtf-three-columns .edgtf-item-space.edgtf-masonry-size-large-width,
@@ -11760,7 +11760,7 @@ aside.edgtf-sidebar .widget_icl_lang_sel_widget .wpml-ls-legacy-dropdown-click {
 }
 
 .edgtf-post-date .edgtf-ribbon-top {
-    width: 65px;
+    width: 100px;
     height: 40px;
     background-color: #c0e1cf;
     font-family: playfair display, serif;
@@ -11772,11 +11772,14 @@ aside.edgtf-sidebar .widget_icl_lang_sel_widget .wpml-ls-legacy-dropdown-click {
     padding-top: 4px
 }
 
+
+
+
 .edgtf-post-date .edgtf-ribbon-bottom {
     position: relative;
     top: -1px;
     z-index: 99;
-    width: 65.5px;
+    width: 100px;
     height: 38px;
     background-color: #f3d0c7;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
@@ -14937,7 +14940,7 @@ hr+h2:before {
 
 @media only screen and (min-width:1400px) {
     .edgtf-grid-1300.edgtf-wide-dropdown-menu-content-in-grid .edgtf-drop-down .wide .second .inner>ul {
-        width: 1300px
+        width: 1400px
     }
 }
 
