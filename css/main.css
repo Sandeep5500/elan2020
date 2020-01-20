@@ -14934,6 +14934,23 @@ hr+h2:before {
     width: 100%
 }
 
+.gallery-title
+{
+    position: absolute;
+    bottom: 10% ;
+    left:10%;
+    color: rgb(206, 206, 206);
+    font-size: 2.4vh;
+}
+.overlay
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color: rgba(0, 0, 0, .4);
+}
 .edgtf-wide-dropdown-menu-content-in-grid .edgtf-drop-down .wide .second .inner>ul {
     width: 1100px
 }
