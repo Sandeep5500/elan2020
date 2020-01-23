@@ -13990,7 +13990,7 @@ blockquote.wp-block-pullquote p {
 {
     color: #353535;
 }
-@media only screen and (min-width:1300px) 
+/* @media only screen and (min-width:1300px) 
 {
 .logos-new .slide
 {
@@ -14002,8 +14002,8 @@ blockquote.wp-block-pullquote p {
     width: 350px !important;
     height: auto !important;
 }
-}
-@media only screen and (max-width:500px) 
+} */
+/* @media only screen and (max-width:500px) 
 {
 .logos-new .slide
 {
@@ -14014,6 +14014,13 @@ blockquote.wp-block-pullquote p {
 {
     width: 160px !important;
     height: auto !important;
+}
+} */
+@media only screen and (max-width:500px) 
+{
+.slide h4
+{
+    display: none;
 }
 }
 .edgtf-wide-dropdown-menu-content-in-grid .edgtf-drop-down .wide .second .inner>ul {
