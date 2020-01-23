@@ -13990,7 +13990,32 @@ blockquote.wp-block-pullquote p {
 {
     color: #353535;
 }
-
+@media only screen and (min-width:1300px) 
+{
+.logos-new .slide
+{
+    width: 300px !important;
+    height: auto !important;
+}
+.logos-new .slick-track
+{
+    width: 350px !important;
+    height: auto !important;
+}
+}
+@media only screen and (max-width:500px) 
+{
+.logos-new .slide
+{
+    width: 100px !important;
+    height: auto !important;
+}
+.logos-new .slick-track
+{
+    width: 130px !important;
+    height: auto !important;
+}
+}
 .edgtf-wide-dropdown-menu-content-in-grid .edgtf-drop-down .wide .second .inner>ul {
     width: 1100px
 }
