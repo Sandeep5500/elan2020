@@ -15026,7 +15026,7 @@ hr+h2:before {
         font-size: 21px;
     }
     .informals .row .col-lg-7:after {
-        margin-left: 30%;
+        margin-left: 28%;
         content: '';
         width: 35%;
         height: 4px;
