@@ -47258,4 +47258,9 @@ body.edgtf-ms-explorer .edgtf-pl-holder .edgtf-pli-inner .edgtf-pli-image .edgtf
     margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 850px) {}
+@media only screen and (min-width: 850px) {
+    .oyo {
+        margin-left: 21vw;
+        margin-right: 21vw;
+    }
+}
