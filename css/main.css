@@ -797,7 +797,12 @@ img.circle {
     .edgtf-grid-1300 .edgtf-container-inner,
     .edgtf-grid-1300 .edgtf-grid,
     .edgtf-grid-1300 .edgtf-row-grid-section {
-        width: 1400px
+        width: 1400px;
+    }
+    .edgtf-grid-1300 .edgtf-container-inner,
+    .edgtf-grid-1300 .edgtf-grid,
+    .sponsors.edgtf-grid-1300 .edgtf-row-grid-section {
+        width: 1100px;
     }
     .edgtf-grid-1300.edgtf-boxed .edgtf-footer-inner,
     .edgtf-grid-1300.edgtf-boxed .edgtf-wrapper-inner {
@@ -1011,6 +1016,10 @@ ul.wpb_thumbnails-fluid>li {
     width: 1100px;
     margin: 0 auto;
     z-index: 20
+}
+
+.sponsors .edgtf-row-grid-section {
+    width: 800px;
 }
 
 .edgtf-content-aligment-left {
